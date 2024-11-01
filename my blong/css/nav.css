@@ -1,0 +1,61 @@
+body {      
+    margin: 0;      
+    padding: 0;      
+}      
+    
+nav {      
+    position: fixed;      
+    display: flex;      
+    justify-content: space-between;    
+    align-items: center;      
+    width: 100%;      
+    height: 60px;      
+    top: 0px;      
+    background-color: rgb(235, 198, 138);      
+    overflow: hidden;      
+    font-size: 20px;      
+    color: rgb(234, 247, 255);      
+    opacity: 0.8;      
+    z-index: 1000;      
+    margin: 0;      
+    padding: 0 20px; /* 注意这里的内边距可能需要根据实际情况调整 */  
+    box-sizing: border-box;      
+    animation: load2 1s linear forwards;     
+	 padding-right: 30px;
+}      
+    
+nav a {      
+    display: block;      
+    text-decoration: none;      
+    color: rgb(255, 255, 255);      
+    font-weight: bolder;      
+    transition: color 0.5s;      
+    padding: 0 15px;      
+    line-height: 60px;      
+}      
+    
+nav a:hover {      
+    color: rgb(0, 0, 0);      
+}      
+    
+nav .navtitle {      
+    padding-left: 20px;      
+    line-height: 60px;      
+}      
+    
+nav .navtitle strong {      
+    font-size: 30px;      
+    font-weight: bolder;      
+}      
+    
+.nav-left, .nav-right {    
+    display: flex;    
+    align-items: center;    
+}    
+    
+.nav-right {    
+    justify-content: flex-end;   
+    margin-right: 30px; /* 添加右边距 */  
+}    
+    
+/* 响应式布局和其他样式保持不变 */
